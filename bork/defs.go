@@ -18,19 +18,12 @@ package bork
 
 import "fmt"
 
-type OBJECT struct {
-	Id   string
-	Bits struct {
-		Open bool
-	}
-}
-
-func (o *OBJECT) OpenBit() bool {
+func (o *Object) OpenBit() bool {
 	return o != nil && o.Bits.Open
 }
 
 var (
-	objects map[string]*OBJECT
+	objects map[string]*Object
 )
 
 /*
@@ -40,7 +33,7 @@ var (
 	    <COND (<PLOOKUP .STR ,OBJECT-POBL>)
 		  (<ERROR NOT-FOUND!-ERRORS FIND-OBJ .STR>)>>
 */
-func findObj(id string) (*OBJECT, bool) {
+func findObj(id string) (*Object, bool) {
 	o, ok := objects[id]
 	if !ok {
 		panic(fmt.Sprintf("assert(findObj(%q) != false)", id))
