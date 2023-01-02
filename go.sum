@@ -1,4 +1,6 @@
 github.com/lmorg/readline v0.0.0-20210316231630-be4b7d79fc3a h1:xiaNGfMrhqdK89RvLnc6WAe4Pe/HKaluZmipsYF3E0o=
 github.com/lmorg/readline v0.0.0-20210316231630-be4b7d79fc3a/go.mod h1:DidBcghSSS00hj06CkehMGDhZ/25vZDdydkeTVUy6lY=
+github.com/peterbourgon/ff/v3 v3.3.0 h1:PaKe7GW8orVFh8Unb5jNHS+JZBwWUMa2se0HM6/BI24=
+github.com/peterbourgon/ff/v3 v3.3.0/go.mod h1:zjJVUhx+twciwfDl0zBcFzl4dW8axCRyXE/eKY9RztQ=
 golang.org/x/sys v0.0.0-20210316164454-77fc1eacc6aa h1:ZYxPR6aca/uhfRJyaOAtflSHjJYiktO7QnJC5ut7iY4=
 golang.org/x/sys v0.0.0-20210316164454-77fc1eacc6aa/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
